@@ -83,7 +83,7 @@ public class DataHelper {
     }
 
     public static CardInfo getNameRandomManySymbol() {
-        return new CardInfo(getApprovedNumCard(), getMonth(0), getYear(0), RandomStringUtils.random(70), getCvc());
+        return new CardInfo(getApprovedNumCard(), getMonth(0), getYear(0), RandomStringUtils.randomAlphabetic(70), getCvc());
     }
 
     public static CardInfo getCardInvalidNumbers() {
