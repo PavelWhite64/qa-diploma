@@ -75,7 +75,7 @@ public class PayTest {
     }
 
     @Test
-    void зastYearTest() {
+    void lastYearTest() {
         var mainPage = new MainPage();
         mainPage.openBuyPage();
         var payment = new PayPage();
