@@ -9,3 +9,5 @@
 1м 37сек - время прохождения тестов
 
 ![img.png](GradleReport.png)
+
+![Allure.png](Allure.png)
