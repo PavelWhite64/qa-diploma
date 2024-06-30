@@ -43,7 +43,7 @@ public class PayTest {
 
     @ParameterizedTest(name = "{0}")
     @MethodSource("successesCase")
-    void successesCaseByCreditTest(String name, CardInfo parm, String expected) {
+    void successesCaseByPayTest(String name, CardInfo parm, String expected) {
         var mainPage = new MainPage();
         mainPage.openBuyPage();
         var payment = new PayPage();
@@ -65,7 +65,7 @@ public class PayTest {
     }
 
     @Test
-    void failCaseByCreditTest() {
+    void failCaseByPayTest() {
         var mainPage = new MainPage();
         mainPage.openBuyPage();
         var payment = new PayPage();

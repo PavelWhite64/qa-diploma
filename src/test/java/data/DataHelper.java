@@ -23,7 +23,7 @@ public class DataHelper {
     }
 
     public static String getYear(int shift) {
-        return LocalDate.now().plusYears(shift).format(DateTimeFormatter.ofPattern("YY"));
+        return LocalDate.now().plusYears(shift).format(DateTimeFormatter.ofPattern("yy"));
     }
     public static String getName() {
         Faker faker = new Faker();

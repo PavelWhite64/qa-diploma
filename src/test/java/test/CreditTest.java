@@ -75,7 +75,7 @@ public class CreditTest {
     }
 
     @Test
-    void зastYearTest() {
+    void pastYearTest() {
         var mainPage = new MainPage();
         mainPage.openCreditPage();
         var payment = new CreditPage();

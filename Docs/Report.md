@@ -8,4 +8,4 @@
 30% - провалены
 1м 37сек - время прохождения тестов
 
-![img.png](img.png)
+![img.png](GradleReport.png)
