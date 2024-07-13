@@ -10,4 +10,4 @@
 
 ![img.png](GradleReport.png)
 
-![Allure.png](Allure.png)
+![img.png](img.png)

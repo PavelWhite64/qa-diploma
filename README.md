@@ -141,6 +141,6 @@
 4. Ждем удаления 3 контейнеров и набираем docker compose up 
 5. Ждем запуска контейнеров node-app, mysql, postgres и во 2-ом терминале для запуска джарника набираем:
    java "-Dspring.datasource.url=jdbc:mysql://localhost:3306/app" -jar ./aqa-shop.jar - для базы данных MySQL или java "-Dspring.datasource-postgresql.url=jdbc:postgresql://localhost:5432/app" -jar ./aqa-shop.jar - для базы данных PostgreSQL
-6. В 3-ем терминале запускаем тесты командой ./gradlew clean test -DdbUrl=jdbc:mysql://localhost:3306/app - для MySQL или ./gradlew clean test -DdbUrl=jdbc:postgresql://localhost:5432/app - для PostgreSQL 
+6. В 3-ем терминале запускаем тесты командой ./gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app" - для MySQL или ./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app" - для PostgreSQL 
 7. Для генерации отчетов на Allure после прохождения тестов набираем в терминале ./gradlew allureserve 
 8. Для отключения джарника или остановки контейнеров нажать ctrl+C
